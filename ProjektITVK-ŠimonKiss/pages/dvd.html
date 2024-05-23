@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DVD</title>
+    <link rel="stylesheet" href="../src/search.css">
+</head>
+<body>
+    <div style="font-size: 50px; font-family: Impact; text-align: center;">
+        <a href="../index.html">LMS</a>
+    </div>
+
+    <div id="form-wrap">
+        <form action="" method="get" autocomplete="on">
+            <h1>DVDs</h1><br>
+
+            <input type="text" id="name" placeholder="Name..." name="name">
+    
+            <input type="text" id="author" placeholder="Author..." name="author">
+    
+            <input type="submit" value="Search">
+            <a id="add-button" href="addDvd.html">Add DVD</a>
+        </form>
+    </div>
+
+    <div class="table">
+        <table class="allTables">
+            <tr>
+                <th>TITLE</th>
+                <th>AUTHOR</th>
+                <th>PUBLISH YEAR</th>
+                <th>AVAILABLE COPIES</th>
+                <th>TOTAL AVAILABLE COPIES</th>
+                <th>TITLE <span>DETAIL</span></th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="../src/search.css">
+
+    <style>        
+        .allTables tr:nth-child(even) {
+            background-color: rgb(200, 200, 200);
+        }
+    </style>
+</head>
+<body>
+    <div style="font-size: 50px; font-family: Impact; text-align: center;">
+        <a href="../index.html">LMS</a>
+    </div>
+
+    <div id="form-wrap">
+        <form action="" method="GET" autocomplete="on">
+            <h1>Books</h1><br>
+    
+            <input type="text" id="author" placeholder="Author" name="author">
+    
+            <input type="text" id="name" placeholder="Name" name="name">
+    
+            <input type="text" id="isbn" placeholder="ISBN..." name="isbn">
+    
+            <input type="submit" value="Search">
+            <a id="add-button" href="addBook.html">Add Book</a>
+        </form>
+    </div>
+
+    <div class="table">
+        <table class="allTables">
+            <tr>
+                <th>TITLE</th>
+                <th>AUTHOR</th>
+                <th>ISBN</th>
+                <th>AVAILABLE COPIES</th>
+                <th>TOTAL AVAILABLE COPIES</th>
+                <th>NUMBER OF PAGES</th>
+                <th>TITLE DETAIL</th>
+                <th>THE PRICE OF THE BOOK &nbsp; &frasl; &nbsp; &euro;</th>
+            </tr>
+    
+            <tr>
+                <td>Knižka Múdrosti</td>
+                <td>Múdry Ján</td>
+                <td>12345678910112</td>
+                <td>1</td>
+                <td>2</td>
+                <td>300</td>
+                <td>-</td>
+                <td>120</td>
+            </tr>
+
+            <tr>
+                <td>Programovanie</td>
+                <td>Novák Ján</td>
+                <td>1238889996663322</td>
+                <td>1</td>
+                <td>1</td>
+                <td>350</td>
+                <td>-</td>
+                <td>90</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

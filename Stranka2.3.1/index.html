@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+    }
+    header li {
+      list-style: none;
+    }
+    header ul {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      padding: 0;
+    }
+    header a {
+      text-decoration: none;
+      color: white;
+    }
+    .headiv {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      margin: 0 auto 0 auto;
+    }
+    header, footer {
+      background-color: gray;
+      padding: 20px;
+      color: white;
+    }
+    footer p {
+      width: fit-content;
+      margin: 0 auto 0 auto;
+    }
+    .flexdiv {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    section {
+      display: flex;
+      gap: 80px;
+    }
+    article {
+      width: calc(65% - 40px);
+      padding: 35px;
+    }
+    aside {
+      width: calc(35% - 40px);
+      padding: 35px;
+      background-color: lightgray;
+      height: fit-content;
+      width: fit-content;
+      margin-top: 35px;
+    }
+    figure {
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="headiv">
+      <h1>My Semantic Elements Website</h1>
+      <nav>
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <article>
+        <div class="flexdiv">
+          <h2>About us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptatibus perferendis sed quibusdam tempore quasi minus vitae suscipit, numquam, voluptates quidem, dolore laborum adipisci error nobis et obcaecati laudantium soluta.</p>
+          <h2>Our services</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati nulla quidem dolorum omnis, nesciunt laudantium? Impedit ad in sapiente laboriosam deleniti, enim dicta dolorum tenetur architecto. Suscipit amet praesentium repellendus!</p>
+        </div>
+      </article>
+      <aside>
+        <h2>related links</h2>
+        <ul>
+          <li><a href="">more</a></li>
+          <li><a href="">more</a></li>
+          <li><a href="">more</a></li>
+        </ul>
+        <p>text go brrrrrrrrrrrrrrrrrrrrrr</p>
+      </aside>
+    </section>
+
+    <section>
+      <figure style="width:fit-content;margin:0 auto 0 auto;">
+        <img src="/image.png" alt="">
+        <figcaption style="width:fit-content;margin:0 auto 0 auto;">forestik</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer>
+    <p>2023 your name. Nothing reserved</p>
+  </footer>
+  
+</body>
+</html>
